@@ -138,6 +138,9 @@ const TRANSLATIONS = {
     impact_badge: 'رسالة إنسانية ومجتمعية',
     impact_title: 'الأثر المجتمعي <span class="pink-gradient-text">والعطاء الإنساني</span>',
     impact_desc: 'لم يقتصر نبوغ منتهى على الأدب فحسب؛ بل سخّرت صوتها وحضورها لخدمة المرضى والأطفال وصناعة المحتوى التعليمي الهادف.',
+    impact_curriculum_badge: 'أكثر من ربع مليون مشاهدة (+250,000)',
+    impact_curriculum_title: 'تبسيط المناهج الدراسية لأجيال العراق',
+    impact_curriculum_desc: 'ساعدت منتهى آلاف الطلاب في المراحل المتوسطة والإعدادية على حفظ وفهم روائع الشعر المقررة في المناهج الوزارية العراقية من خلال إلقاء متقن وشروحات مبسطة على منصات التواصل الاجتماعي.',
 
     // Quiz Section
     quiz_badge: 'اختبر معلوماتك الأدبية',
@@ -400,6 +403,9 @@ const TRANSLATIONS = {
     impact_badge: 'Humanitarian & Community Mission',
     impact_title: 'Social Impact & <span class="pink-gradient-text">Humanitarian Giving</span>',
     impact_desc: 'Muntaha\'s brilliance extends beyond literature; she channels her voice and influence to comfort patients, mentor children, and create educational content.',
+    impact_curriculum_badge: 'Over Quarter Million Views (+250,000)',
+    impact_curriculum_title: 'Simplifying National Curricula for Iraq\'s Future Generations',
+    impact_curriculum_desc: 'Muntaha has helped thousands of middle and high school students memorize and understand classical poetry required by Iraqi national curricula through eloquent recitations and engaging simplified explanations across social media.',
 
     // Quiz Section
     quiz_badge: 'Test Your Literary Knowledge',
