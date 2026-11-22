@@ -95,13 +95,15 @@
           </svg>
           <span class="menu-toggle-label" data-i18n="nav_sections_btn">الأقسام</span>
         </button>
-        <button id="lang-toggle-btn" class="nav-control-pill lang-btn" title="Switch Language">
-          <span>🌐</span>
-          <span id="lang-label">English</span>
-        </button>
-        <button id="theme-toggle-btn" class="nav-control-pill theme-btn" title="تبديل المظهر (نهاري / ليلي)" aria-label="تبديل الوضع النهاري والليلي">
-          <span id="theme-icon">☀️</span>
-        </button>
+        <div class="nav-toggles-pair">
+          <button id="lang-toggle-btn" class="nav-control-pill lang-btn" title="تبديل اللغة / Switch Language" data-i18n-title="lang_btn_title">
+            <span>🌐</span>
+            <span id="lang-label" data-i18n="lang_btn_text">EN</span>
+          </button>
+          <button id="theme-toggle-btn" class="nav-control-pill theme-btn" title="تبديل المظهر (نهاري / ليلي)" aria-label="تبديل الوضع النهاري والليلي">
+            <span id="theme-icon">☀️</span>
+          </button>
+        </div>
         <a href="./index.html" class="nav-control-pill gallery-back-pill" data-i18n="gallery_back_btn">العودة للرئيسية ←</a>
       </div>
     </div>
@@ -127,7 +129,7 @@
         </button>
         <button id="mobile-lang-toggle-btn" class="nav-control-pill lang-btn" style="flex: 1; justify-content: center;">
           <span>🌐</span>
-          <span id="mobile-lang-label">English</span>
+          <span id="mobile-lang-label">EN</span>
         </button>
       </div>
     </div>

@@ -514,24 +514,56 @@ body {
   transform: scale(0.96);
 }
 
+/* Toggles Pair: Language & Theme Always Grouped Together */
+.nav-toggles-pair {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  flex-shrink: 0;
+}
+
 .lang-btn {
-  background: rgba(236, 72, 153, 0.12);
-  border-color: rgba(236, 72, 153, 0.4);
+  background: rgba(236, 72, 153, 0.14);
+  border: 1px solid rgba(236, 72, 153, 0.42);
   color: #fff;
+  height: 34px;
+  padding: 0 0.55rem;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .lang-btn:hover {
-  background: rgba(236, 72, 153, 0.28);
+  background: rgba(236, 72, 153, 0.3);
   border-color: var(--pink-light);
+  transform: translateY(-1px);
 }
 
 .theme-btn {
   background: rgba(255, 255, 255, 0.08);
-  border-color: rgba(244, 114, 182, 0.35);
+  border: 1px solid rgba(244, 114, 182, 0.35);
   color: #fff;
-  padding: 0.38rem 0.65rem;
-  font-size: 1rem;
+  width: 34px;
+  height: 34px;
+  padding: 0;
+  font-size: 0.95rem;
   line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  flex-shrink: 0;
 }
 
 .theme-btn:hover {
@@ -644,16 +676,24 @@ body {
     flex-shrink: 0;
   }
 
-  .lang-btn {
-    padding: 0.35rem 0.6rem;
-    font-size: 0.76rem;
+  .nav-toggles-pair {
+    display: inline-flex;
+    align-items: center;
     gap: 0.25rem;
+    flex-shrink: 0;
+  }
+
+  .lang-btn {
+    height: 34px;
+    padding: 0 0.5rem;
+    font-size: 0.74rem;
+    gap: 0.2rem;
   }
 
   .theme-btn {
-    padding: 0.35rem 0.55rem;
+    padding: 0;
     font-size: 0.95rem;
-    min-width: 34px;
+    width: 34px;
     height: 34px;
     display: inline-flex;
     align-items: center;
@@ -1176,6 +1216,36 @@ body.theme-light .menu-toggle:hover,
 body.light-mode .menu-toggle:hover {
   background: #e11d48;
   color: #ffffff;
+}
+
+[data-theme="light"] .lang-btn,
+body.theme-light .lang-btn,
+body.light-mode .lang-btn {
+  background: #ffe4e6;
+  border-color: #f43f5e;
+  color: #9f1239;
+}
+
+[data-theme="light"] .lang-btn:hover,
+body.theme-light .lang-btn:hover,
+body.light-mode .lang-btn:hover {
+  background: #f43f5e;
+  color: #ffffff;
+}
+
+[data-theme="light"] .theme-btn,
+body.theme-light .theme-btn,
+body.light-mode .theme-btn {
+  background: #f1f5f9;
+  border-color: #cbd5e1;
+  color: #0f172a;
+}
+
+[data-theme="light"] .theme-btn:hover,
+body.theme-light .theme-btn:hover,
+body.light-mode .theme-btn:hover {
+  background: #e2e8f0;
+  border-color: #94a3b8;
 }
 
 [data-theme="light"] .mobile-drawer,
