@@ -88,26 +88,21 @@
 
       <!-- Nav Actions (Theme Toggle, Language Toggle & Drawer) -->
       <div class="nav-actions">
-        <button id="mobile-menu-toggle" class="menu-toggle" aria-label="أقسام الموقع" data-i18n-title="nav_sections_btn">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-            <line x1="3" y1="12" x2="21" y2="12"></line>
-            <line x1="3" y1="6" x2="21" y2="6"></line>
-            <line x1="3" y1="18" x2="21" y2="18"></line>
-          </svg>
-          <span class="menu-toggle-label" data-i18n="nav_sections_btn">الأقسام</span>
-        </button>
         <div class="nav-toggles-pair">
-          <button id="lang-toggle-btn" class="nav-control-pill lang-btn" title="تبديل اللغة / Switch Language" data-i18n-title="lang_btn_title">
-            <span>🌐</span>
+          <button id="lang-toggle-btn" class="nav-control-pill lang-btn" title="تبديل اللغة / Switch Language" data-i18n-title="lang_btn_title" aria-label="تبديل اللغة">
             <span id="lang-label" data-i18n="lang_btn_text">EN</span>
           </button>
           <button id="theme-toggle-btn" class="nav-control-pill theme-btn" title="تبديل المظهر (نهاري / ليلي)" aria-label="تبديل الوضع النهاري والليلي">
             <span id="theme-icon">☀️</span>
           </button>
         </div>
-        <a href="gallery.html" class="nav-control-pill quick-gallery-pill" data-i18n="quick_gallery_cta">
-          معرض الصور (118+)
-        </a>
+        <button id="mobile-menu-toggle" class="menu-toggle" aria-label="أقسام الموقع" data-i18n-title="nav_sections_btn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
       </div>
     </div>
 
@@ -421,6 +416,12 @@
         <h2 class="section-title" data-i18n="poetry_title">روائع الشعر العربي في <span class="pink-gradient-text">ذاكرة منتهى</span></h2>
         <div class="section-divider"></div>
         <p class="section-desc" data-i18n="poetry_desc">تحفظ أكثر من 950 بيتاً شعرياً فصيحاً مع الضبط التام للوزن ومخارج الحروف. استمع واقرأ نماذج من محفوظاتها الخالدة.</p>
+        <div class="poetry-archive-cta-wrapper">
+          <a href="memory.html" class="poetry-archive-btn">
+            <span class="poetry-archive-icon">📜</span>
+            <span data-i18n="poetry_to_memory_btn">استعراض أرشيف المحفوظات الشعري الشامل (54 نصاً) ←</span>
+          </a>
+        </div>
       </div>
 
       <!-- Toolbar: Categories, Search, Font Scaler -->
@@ -451,6 +452,14 @@
 
       <!-- Poems Render Grid -->
       <div class="poems-grid" id="poems-grid"></div>
+
+      <!-- Bottom Archive Button -->
+      <div class="poetry-archive-bottom-cta">
+        <a href="memory.html" class="poetry-archive-btn">
+          <span class="poetry-archive-icon">📜</span>
+          <span data-i18n="poetry_to_memory_btn">استعراض أرشيف المحفوظات الشعري الشامل (54 نصاً) ←</span>
+        </a>
+      </div>
     </div>
   </section>
 
