@@ -288,7 +288,7 @@ const TRANSLATIONS = {
     nav_audio_label: 'Voice',
     nav_audio_on: 'Recitation Voice On',
     nav_audio_off: 'Recitation Voice Off',
-    lang_btn_text: 'ع ر',
+    lang_btn_text: 'AR',
     lang_btn_title: 'التحويل للغة العربية / Switch to Arabic',
     quick_gallery_cta: 'Galleries (118+)',
     theme_btn_title: 'Toggle Theme (Light / Dark)',
